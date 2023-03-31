@@ -511,6 +511,7 @@ textarea.input {
 .header {
   position: relative;
   min-height: 100vh;
+  background: url(../img/header_bg.webp) center no-repeat;
   background-size: cover;
 }
 
@@ -1442,4 +1443,3 @@ textarea.input {
   }
 }
 
-.webp .header{ background: url(../img/header_bg.webp) center no-repeat; }
