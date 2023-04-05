@@ -5135,17 +5135,44 @@
             });
         }
         function initSliders() {
-            if (document.querySelector(".swiper")) new core(".swiper", {
+            if (document.querySelector(".propertys__slider")) new core(".propertys__slider", {
                 modules: [ Navigation ],
                 observer: true,
                 observeParents: true,
                 slidesPerView: 1,
-                spaceBetween: 15,
+                spaceBetween: 20,
                 autoHeight: true,
                 speed: 800,
                 navigation: {
-                    prevEl: ".swiper-button-prev",
-                    nextEl: ".swiper-button-next"
+                    prevEl: ".propertys-button-prev",
+                    nextEl: ".propertys-button-next"
+                },
+                on: {}
+            });
+            if (document.querySelector(".cities__slider")) new core(".cities__slider", {
+                modules: [],
+                observer: true,
+                observeParents: true,
+                slidesPerView: 4,
+                spaceBetween: 20,
+                autoHeight: true,
+                speed: 800,
+                loop: true,
+                on: {}
+            });
+            if (document.querySelector(".client-reviews__slider")) new core(".client-reviews__slider", {
+                modules: [ Navigation ],
+                observer: true,
+                observeParents: true,
+                slidesPerView: 3,
+                spaceBetween: 20,
+                autoHeight: true,
+                speed: 800,
+                simulateTouch: false,
+                loop: true,
+                navigation: {
+                    prevEl: ".client-button-prev",
+                    nextEl: ".client-button-next"
                 },
                 on: {}
             });
