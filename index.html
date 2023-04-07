@@ -1,179 +1,1594 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
+	<title>Главная</title>
 	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230407133048">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Верстка «RealEstate»</title>
 </head>
 
 <body>
-	<div class="rootpage">
-		<h1>Верстка «RealEstate»</h1>
-		<div class="rootpage__info">
-			Недвижимость жилая и коммерческая
+	<div data-sticky class="wrapper">
+		<header data-watch="navigator" class="header">
+			<span class="horizont-line"></span>
+			<div class="header__gradient"></div>
+			<div class="header__container">
+				<div data-sticky-header class="header__top top-header">
+					<div data-sticky-item class="top-header__block">
+						<a href="" class="top-header__logo">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип"></picture>
+						</a>
+						<div class="menu">
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+							<nav class="menu__body">
+
+							</nav>
+						</div>
+						<nav data-da=".menu__body, 991.98" class="top-header__menu">
+							<ul>
+								<li class="top-header__item">
+									<a href="" data-goto-top="90" data-goto=".header" class="top-header__link">Home</a>
+								</li>
+								<li class="top-header__item">
+									<a href="" data-goto-top="90" data-goto=".helping__container" class="top-header__link">About</a>
+								</li>
+								<li class="top-header__item">
+									<a href="" data-goto-top="90" data-goto=".about__container" class="top-header__link">Service</a>
+								</li>
+								<li class="top-header__item">
+									<a href="" data-goto=".estate-sale" class="top-header__link">Portfolio</a>
+								</li>
+								<li class="top-header__item">
+									<a href="" data-goto-top="90" data-goto=".reviews__container" class="top-header__link">Blog</a>
+								</li>
+								<li class="top-header__item">
+									<a href="" data-goto=".footer" class="top-header__link">Contact</a>
+								</li>
+							</ul>
+							<button type="submit" class="top-header__button button">Registre Now</button>
+						</nav>
+					</div>
+				</div>
+
+				<div class="header__main main-header">
+					<div class="main-header__title">
+						<h1>Find Your Perfect Place.</h1>
+						<h3>We are recognized for exceeding client expectations and delivering great
+							results through dedication and ease of process.</h3>
+					</div>
+					<div class="main-header__tabs">
+						<div data-tabs class="tabs-header">
+							<nav data-tabs-titles class="tabs-header__navigation">
+								<button type="button" class="tabs-header__title _tab-active">Buy</button>
+								<button type="button" class="tabs-header__title">Rent</button>
+								<button type="button" class="tabs-header__title">Sell</button>
+							</nav>
+							<div data-tabs-body class="tabs-header__content">
+								<div class="tabs-header__body">
+									<form action="#" class="tabs-header__form form-header">
+										<div class="form-header__list">
+											<div class="form-header__block">
+												<div class="form-header__item form-header__item-one">
+													<div class="form-header__label">
+														<h3>Property type</h3>
+													</div>
+													<div class="form-header__select">
+														<select name="PropertyType" class="header-select">
+															<option value="1" selected>Family Home</option>
+															<option value="2">Uninhabited premise</option>
+															<option value="3">Earth</option>
+														</select>
+													</div>
+												</div>
+												<div class="vertical-line"></div>
+												<div class="form-header__item form-header__item-two">
+													<div class="form-header__label">
+														<h3>Renge House</h3>
+													</div>
+													<div class="form-header__select">
+														<select name="RengeHouse" class="header-select">
+															<option value="1" selected>26x10m2</option>
+															<option value="2">27x11m2</option>
+															<option value="3">28x12m2</option>
+														</select>
+													</div>
+												</div>
+												<div class="vertical-line"></div>
+												<div class="form-header__item form-header__item-three">
+													<div class="form-header__label">
+														<h3>Search Location</h3>
+													</div>
+													<div class="form-header__input">
+														<input autocomplete="off" type="text" name="SearchLocation" data-error="Ошибка" placeholder="Edmonton, Alberta, Canada" class="input header-input">
+													</div>
+												</div>
+											</div>
+
+											<button type="submit" class="button form-header__button">Search</button>
+										</div>
+									</form>
+								</div>
+
+								<div class="tabs-header__body">
+									<form action="#" class="tabs-header__form form-header">
+										<div class="form-header__list">
+											<div class="form-header__block">
+												<div class="form-header__item form-header__item-one">
+													<div class="form-header__label">
+														<h3>Property type</h3>
+													</div>
+													<div class="form-header__select">
+														<select name="PropertyType" class="header-select">
+															<option value="1">Family Home</option>
+															<option value="2" selected>Uninhabited premise</option>
+															<option value="3">Earth</option>
+														</select>
+													</div>
+												</div>
+												<div class="vertical-line"></div>
+												<div class="form-header__item form-header__item-two">
+													<div class="form-header__label">
+														<h3>Renge House</h3>
+													</div>
+													<div class="form-header__select">
+														<select name="RengeHouse" class="header-select">
+															<option value="1">26x10m2</option>
+															<option value="2" selected>27x11m2</option>
+															<option value="3">28x12m2</option>
+														</select>
+													</div>
+												</div>
+												<div class="vertical-line"></div>
+												<div class="form-header__item form-header__item-three">
+													<div class="form-header__label">
+														<h3>Search Location</h3>
+													</div>
+													<div class="form-header__input">
+														<input autocomplete="off" type="text" name="SearchLocation" data-error="Ошибка" placeholder="Edmonton, Alberta, Canada" class="input header-input">
+													</div>
+												</div>
+											</div>
+
+											<button type="submit" class="button form-header__button">Search</button>
+										</div>
+									</form>
+								</div>
+
+								<div class="tabs-header__body">
+									<form action="#" class="tabs-header__form form-header">
+										<div class="form-header__list">
+											<div class="form-header__block">
+												<div class="form-header__item form-header__item-one">
+													<div class="form-header__label">
+														<h3>Property type</h3>
+													</div>
+													<div class="form-header__select">
+														<select name="PropertyType" class="header-select">
+															<option value="1">Family Home</option>
+															<option value="2">Uninhabited premise</option>
+															<option value="3" selected>Earth</option>
+														</select>
+													</div>
+												</div>
+												<div class="vertical-line"></div>
+												<div class="form-header__item form-header__item-two">
+													<div class="form-header__label">
+														<h3>Renge House</h3>
+													</div>
+													<div class="form-header__select">
+														<select name="RengeHouse" class="header-select">
+															<option value="1">26x10m2</option>
+															<option value="2">27x11m2</option>
+															<option value="3" selected>28x12m2</option>
+														</select>
+													</div>
+												</div>
+												<div class="vertical-line"></div>
+												<div class="form-header__item form-header__item-three">
+													<div class="form-header__label">
+														<h3>Search Location</h3>
+													</div>
+													<div class="form-header__input">
+														<input autocomplete="off" type="text" name="SearchLocation" data-error="Ошибка" placeholder="Edmonton, Alberta, Canada" class="input header-input">
+													</div>
+												</div>
+											</div>
+
+											<button type="submit" class="button form-header__button">Search</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+			<!-- Секция 1 -->
+			<section class="helping">
+				<div data-watch="navigator" class="helping__container">
+					<div class="helping__body">
+						<div class="helping__image">
+							<picture><source srcset="img/home.webp" type="image/webp"><img src="img/home.jpg" alt="home"></picture>
+						</div>
+						<div class="helping__info">
+							<div class="helping__title">
+								<h1 class="title">Helping People to Find The Right Property</h1>
+								<h2 class="subtitle">Over 39,000 people work for us in more than 70 countries all over the This
+									breadth of global
+									coverage, combined with specialist follower Over 39,000 people work for us in more.</h2>
+							</div>
+							<div class="helping__items">
+								<div class="helping__item">
+									<div class="helping__icon">
+										<div class="_icon-residency">
+											<div class="helping__icon_fon"></div>
+										</div>
+									</div>
+									<div class="helping__description">
+										<h2>The Perfect Residency</h2>
+										<p>Lorem ipsum dolorsit amet consectetur eiusmod tempor incididunt.</p>
+									</div>
+								</div>
+
+								<div class="helping__item">
+									<div class="helping__icon">
+										<div class="_icon-handshake">
+											<div class="helping__icon_fon"></div>
+										</div>
+									</div>
+									<div class="helping__description">
+										<h2>Trusted By Thousands</h2>
+										<p>Lorem ipsum dolorsit amet consectetur eiusmod tempor incididunt.</p>
+									</div>
+								</div>
+
+
+								<div class="helping__item">
+									<div class="helping__icon">
+										<div class="_icon-payment">
+											<div class="helping__icon_fon"></div>
+										</div>
+									</div>
+									<div class="helping__description">
+										<h2>Total Payment Transparency</h2>
+										<p>Lorem ipsum dolorsit amet consectetur eiusmod tempor incididunt.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Секция 2 -->
+			<section class="about section">
+				<div data-watch="navigator" class="about__container">
+					<div class="about__body">
+						<div class="about__title">
+							<h1 class="title">Why Choose Us</h1>
+							<h3 class="subtitle">Working through massive amounts of material</h3>
+						</div>
+						<div class="about__items">
+							<div class="about__item">
+								<div class="about__icon">
+									<div class="_icon-chat icon-about"></div>
+								</div>
+								<div class="about__description">
+									<h2>Trusted By Thousands</h2>
+									<p>With over 1 million+ homes for sale available on the website Trulia can.</p>
+								</div>
+							</div>
+
+							<div class="about__item">
+								<div class="about__icon">
+									<div class="_icon-wallet icon-about"></div>
+								</div>
+								<div class="about__description">
+									<h2>Financing Made Easy</h2>
+									<p>With over 1 million+ homes for sale available on the website Trulia can.</p>
+								</div>
+							</div>
+
+							<div class="about__item">
+								<div class="about__icon">
+									<div class="_icon-home icon-about"></div>
+								</div>
+								<div class="about__description">
+									<h2>Wide Renge Properties</h2>
+									<p>With over 1 million+ homes for sale available on the website Trulia can.</p>
+								</div>
+							</div>
+
+							<div class="about__item">
+								<div class="about__icon">
+									<div class="_icon-map icon-about"></div>
+								</div>
+								<div class="about__description">
+									<h2>See Neighborhoods</h2>
+									<p>With over 1 million+ homes for sale available on the website Trulia can.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Секция 3 -->
+			<section data-watch="navigator" class="estate-sale">
+				<div class="estate-sale__container">
+					<div class="estate-sale__body">
+						<div class="estate-sale__title">
+							<h1 class="title">Featured Property For Sale</h1>
+							<h3 class="subtitle">List your latest properties and order them as you wish</h3>
+						</div>
+						<div data-showmore="size" class="estate-sale__content">
+							<div data-showmore-content="1155" class="estate-sale__cards">
+
+								<article class="product-card">
+									<div class="product-card__top">
+										<div class="product-card__image">
+											<div class="product-card__actions">
+												<div class="product-card__actions-list">
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-favorite product-card__actions-icon"></div>
+													</a>
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-comparison product-card__actions-icon"></div>
+													</a>
+												</div>
+											</div>
+											<picture><source srcset="img/apartments_1.webp" type="image/webp"><img src="img/apartments_1.jpg" alt="apartments_1"></picture>
+											<div class="product-card__lable">
+												<span>Commercial Property</span>
+											</div>
+											<div class="product-card__status">
+												<span>For Sell</span>
+											</div>
+										</div>
+
+									</div>
+
+
+									<div class="product-card__bottom">
+										<div class="product-card__body">
+											<div class="product-card__block">
+												<div class="product-card__title">
+													<h3>Countryside Modern Lake View</h3>
+												</div>
+												<div class="product-card__location">
+													<span class="_icon-location">Poughkeepsie, New York</span>
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__price">
+													$28.000
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__info">
+													<ul>
+														<li>
+															<span>Beds 3</span>
+															<div class="_icon-bed product-card__icon"></div>
+														</li>
+														<li>
+															<span>Baths 1</span>
+															<div class="_icon-shower product-card__icon"></div>
+														</li>
+														<li>
+															<span>2200 Sqft</span>
+															<div class="_icon-area product-card__icon"></div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+
+								<article class="product-card">
+									<div class="product-card__top">
+										<div class="product-card__image">
+											<div class="product-card__actions">
+												<div class="product-card__actions-list">
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-favorite product-card__actions-icon"></div>
+													</a>
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-comparison product-card__actions-icon"></div>
+													</a>
+												</div>
+											</div>
+											<picture><source srcset="img/apartments_2.webp" type="image/webp"><img src="img/apartments_2.jpg" alt="apartments_1"></picture>
+											<div class="product-card__lable">
+												<span>Commercial Property</span>
+											</div>
+											<div class="product-card__status">
+												<span>For Sell</span>
+											</div>
+										</div>
+
+									</div>
+
+
+									<div class="product-card__bottom">
+										<div class="product-card__body">
+											<div class="product-card__block">
+												<div class="product-card__title">
+													<h3>Countryside Modern Lake View</h3>
+												</div>
+												<div class="product-card__location">
+													<span class="_icon-location">Poughkeepsie, New York</span>
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__price">
+													$22,000
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__info">
+													<ul>
+														<li>
+															<span>Beds 3</span>
+															<div class="_icon-bed product-card__icon"></div>
+														</li>
+														<li>
+															<span>Baths 1</span>
+															<div class="_icon-shower product-card__icon"></div>
+														</li>
+														<li>
+															<span>2200 Sqft</span>
+															<div class="_icon-area product-card__icon"></div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+
+								<article class="product-card">
+									<div class="product-card__top">
+										<div class="product-card__image">
+											<div class="product-card__actions">
+												<div class="product-card__actions-list">
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-favorite product-card__actions-icon"></div>
+													</a>
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-comparison product-card__actions-icon"></div>
+													</a>
+												</div>
+											</div>
+											<picture><source srcset="img/apartments_3.webp" type="image/webp"><img src="img/apartments_3.jpg" alt="apartments_1"></picture>
+											<div class="product-card__lable">
+												<span>Commercial Property</span>
+											</div>
+											<div class="product-card__status">
+												<span>For Sell</span>
+											</div>
+										</div>
+
+									</div>
+
+
+									<div class="product-card__bottom">
+										<div class="product-card__body">
+											<div class="product-card__block">
+												<div class="product-card__title">
+													<h3>Countryside Modern Lake View</h3>
+												</div>
+												<div class="product-card__location">
+													<span class="_icon-location">Poughkeepsie, New York</span>
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__price">
+													$24,000
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__info">
+													<ul>
+														<li>
+															<span>Beds 3</span>
+															<div class="_icon-bed product-card__icon"></div>
+														</li>
+														<li>
+															<span>Baths 1</span>
+															<div class="_icon-shower product-card__icon"></div>
+														</li>
+														<li>
+															<span>2200 Sqft</span>
+															<div class="_icon-area product-card__icon"></div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+
+								<article class="product-card">
+									<div class="product-card__top">
+										<div class="product-card__image">
+											<div class="product-card__actions">
+												<div class="product-card__actions-list">
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-favorite product-card__actions-icon"></div>
+													</a>
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-comparison product-card__actions-icon"></div>
+													</a>
+												</div>
+											</div>
+											<picture><source srcset="img/apartments_4.webp" type="image/webp"><img src="img/apartments_4.jpg" alt="apartments_1"></picture>
+											<div class="product-card__lable">
+												<span>Commercial Property</span>
+											</div>
+											<div class="product-card__status">
+												<span>For Sell</span>
+											</div>
+										</div>
+
+									</div>
+
+
+									<div class="product-card__bottom">
+										<div class="product-card__body">
+											<div class="product-card__block">
+												<div class="product-card__title">
+													<h3>Countryside Modern Lake View</h3>
+												</div>
+												<div class="product-card__location">
+													<span class="_icon-location">Poughkeepsie, New York</span>
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__price">
+													$19,000
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__info">
+													<ul>
+														<li>
+															<span>Beds 3</span>
+															<div class="_icon-bed product-card__icon"></div>
+														</li>
+														<li>
+															<span>Baths 1</span>
+															<div class="_icon-shower product-card__icon"></div>
+														</li>
+														<li>
+															<span>2200 Sqft</span>
+															<div class="_icon-area product-card__icon"></div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+
+								<article class="product-card">
+									<div class="product-card__top">
+										<div class="product-card__image">
+											<div class="product-card__actions">
+												<div class="product-card__actions-list">
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-favorite product-card__actions-icon"></div>
+													</a>
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-comparison product-card__actions-icon"></div>
+													</a>
+												</div>
+											</div>
+											<picture><source srcset="img/apartments_5.webp" type="image/webp"><img src="img/apartments_5.jpg" alt="apartments_1"></picture>
+											<div class="product-card__lable">
+												<span>Commercial Property</span>
+											</div>
+											<div class="product-card__status">
+												<span>For Sell</span>
+											</div>
+										</div>
+
+									</div>
+
+
+									<div class="product-card__bottom">
+										<div class="product-card__body">
+											<div class="product-card__block">
+												<div class="product-card__title">
+													<h3>Countryside Modern Lake View</h3>
+												</div>
+												<div class="product-card__location">
+													<span class="_icon-location">Poughkeepsie, New York</span>
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__price">
+													$30,000
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__info">
+													<ul>
+														<li>
+															<span>Beds 3</span>
+															<div class="_icon-bed product-card__icon"></div>
+														</li>
+														<li>
+															<span>Baths 1</span>
+															<div class="_icon-shower product-card__icon"></div>
+														</li>
+														<li>
+															<span>2200 Sqft</span>
+															<div class="_icon-area product-card__icon"></div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+
+								<article class="product-card">
+									<div class="product-card__top">
+										<div class="product-card__image">
+											<div class="product-card__actions">
+												<div class="product-card__actions-list">
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-favorite product-card__actions-icon"></div>
+													</a>
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-comparison product-card__actions-icon"></div>
+													</a>
+												</div>
+											</div>
+											<picture><source srcset="img/apartments_6.webp" type="image/webp"><img src="img/apartments_6.jpg" alt="apartments_1"></picture>
+											<div class="product-card__lable">
+												<span>Commercial Property</span>
+											</div>
+											<div class="product-card__status">
+												<span>For Sell</span>
+											</div>
+										</div>
+
+									</div>
+
+
+									<div class="product-card__bottom">
+										<div class="product-card__body">
+											<div class="product-card__block">
+												<div class="product-card__title">
+													<h3>Countryside Modern Lake View</h3>
+												</div>
+												<div class="product-card__location">
+													<span class="_icon-location">Poughkeepsie, New York</span>
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__price">
+													$47,000
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__info">
+													<ul>
+														<li>
+															<span>Beds 3</span>
+															<div class="_icon-bed product-card__icon"></div>
+														</li>
+														<li>
+															<span>Baths 1</span>
+															<div class="_icon-shower product-card__icon"></div>
+														</li>
+														<li>
+															<span>2200 Sqft</span>
+															<div class="_icon-area product-card__icon"></div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+
+								<article class="product-card">
+									<div class="product-card__top">
+										<div class="product-card__image">
+											<div class="product-card__actions">
+												<div class="product-card__actions-list">
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-favorite product-card__actions-icon"></div>
+													</a>
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-comparison product-card__actions-icon"></div>
+													</a>
+												</div>
+											</div>
+											<picture><source srcset="img/apartments_1.webp" type="image/webp"><img src="img/apartments_1.jpg" alt="apartments_1"></picture>
+											<div class="product-card__lable">
+												<span>Commercial Property</span>
+											</div>
+											<div class="product-card__status">
+												<span>For Sell</span>
+											</div>
+										</div>
+
+									</div>
+
+
+									<div class="product-card__bottom">
+										<div class="product-card__body">
+											<div class="product-card__block">
+												<div class="product-card__title">
+													<h3>Countryside Modern Lake View</h3>
+												</div>
+												<div class="product-card__location">
+													<span class="_icon-location">Poughkeepsie, New York</span>
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__price">
+													$19,000
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__info">
+													<ul>
+														<li>
+															<span>Beds 3</span>
+															<div class="_icon-bed product-card__icon"></div>
+														</li>
+														<li>
+															<span>Baths 1</span>
+															<div class="_icon-shower product-card__icon"></div>
+														</li>
+														<li>
+															<span>2200 Sqft</span>
+															<div class="_icon-area product-card__icon"></div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+
+								<article class="product-card">
+									<div class="product-card__top">
+										<div class="product-card__image">
+											<div class="product-card__actions">
+												<div class="product-card__actions-list">
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-favorite product-card__actions-icon"></div>
+													</a>
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-comparison product-card__actions-icon"></div>
+													</a>
+												</div>
+											</div>
+											<picture><source srcset="img/apartments_3.webp" type="image/webp"><img src="img/apartments_3.jpg" alt="apartments_1"></picture>
+											<div class="product-card__lable">
+												<span>Commercial Property</span>
+											</div>
+											<div class="product-card__status">
+												<span>For Sell</span>
+											</div>
+										</div>
+
+									</div>
+
+
+									<div class="product-card__bottom">
+										<div class="product-card__body">
+											<div class="product-card__block">
+												<div class="product-card__title">
+													<h3>Countryside Modern Lake View</h3>
+												</div>
+												<div class="product-card__location">
+													<span class="_icon-location">Poughkeepsie, New York</span>
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__price">
+													$25,000
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__info">
+													<ul>
+														<li>
+															<span>Beds 3</span>
+															<div class="_icon-bed product-card__icon"></div>
+														</li>
+														<li>
+															<span>Baths 1</span>
+															<div class="_icon-shower product-card__icon"></div>
+														</li>
+														<li>
+															<span>2200 Sqft</span>
+															<div class="_icon-area product-card__icon"></div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+
+								<article class="product-card">
+									<div class="product-card__top">
+										<div class="product-card__image">
+											<div class="product-card__actions">
+												<div class="product-card__actions-list">
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-favorite product-card__actions-icon"></div>
+													</a>
+													<a href="#" class="product-card__actions-item">
+														<div class="_icon-comparison product-card__actions-icon"></div>
+													</a>
+												</div>
+											</div>
+											<picture><source srcset="img/apartments_2.webp" type="image/webp"><img src="img/apartments_2.jpg" alt="apartments_1"></picture>
+											<div class="product-card__lable">
+												<span>Commercial Property</span>
+											</div>
+											<div class="product-card__status">
+												<span>For Sell</span>
+											</div>
+										</div>
+
+									</div>
+
+
+									<div class="product-card__bottom">
+										<div class="product-card__body">
+											<div class="product-card__block">
+												<div class="product-card__title">
+													<h3>Countryside Modern Lake View</h3>
+												</div>
+												<div class="product-card__location">
+													<span class="_icon-location">Poughkeepsie, New York</span>
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__price">
+													$31,000
+												</div>
+											</div>
+
+											<div class="product-card__block">
+												<div class="product-card__info">
+													<ul>
+														<li>
+															<span>Beds 3</span>
+															<div class="_icon-bed product-card__icon"></div>
+														</li>
+														<li>
+															<span>Baths 1</span>
+															<div class="_icon-shower product-card__icon"></div>
+														</li>
+														<li>
+															<span>2200 Sqft</span>
+															<div class="_icon-area product-card__icon"></div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+
+							<button hidden data-showmore-button type="button" class="estate-sale__more">
+								<span class="button">Load More</span>
+								<span class="button">Hide</span>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- Секция 4 -->
+				<div class="works section">
+					<div class="works__container">
+						<div class="works__body">
+							<div class="works__info info-works">
+								<div class="info-works__title">
+									<h3>Three steps to at works</h3>
+								</div>
+								<div class="info-works__body">
+									<div class="info-works__left">
+										<div class="info-works__horizont-line"></div>
+										<div data-da=".info-works__right, 442, 2" class="info-works__item">
+											<div class="info-works__number"><span>02</span></div>
+											<div class="info-works__discription">
+												<p>Virtual tour is the new normal</p>
+												<span>Keep track of your leads without having to pay for an external CRM</span>
+											</div>
+										</div>
+										<div class="info-works__horizont-line"></div>
+									</div>
+
+									<div class="info-works__right">
+										<div class="info-works__item">
+											<div class="info-works__number"><span>01</span></div>
+											<div class="info-works__discription">
+												<p>Negotiate your rent & apply online</p>
+												<span>Never miss a sale! It's never been easier to turn leads into real
+													customers</span>
+											</div>
+										</div>
+										<div class="info-works__horizont-line"></div>
+										<div class="info-works__item">
+											<div class="info-works__number"><span>03</span></div>
+											<div class="info-works__discription">
+												<p>eSign papers from home</p>
+												<span>Customize your website according to your expectations and requirements</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="works__form form-works">
+								<div class="form-works__title">
+									<h3>Real Estate Inquiry Form</h3>
+									<p>With over 1 million+ homes for sale available on the website Trulia can.</p>
+								</div>
+
+								<form action="#" class="form-works__form form">
+									<div class="form__row">
+										<div class="form__label">Inquiry Type</div>
+										<div class="form__block">
+											<select data-class-modif="form" name="formInquiry" class="form__select">
+												<option value="1" selected>Inquiry №1</option>
+												<option value="2">Inquiry №2</option>
+												<option value="3">Inquiry №3</option>
+												<option value="4">Inquiry №4</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="form__row">
+										<div class="form__label">Information</div>
+										<div class="form__block">
+											<select data-class-modif="form" name="formIma" class="form__select">
+												<option value="1" selected>I’m a</option>
+												<option value="2">Not me</option>
+											</select>
+											<div class="form__column">
+												<input type="text" class="form__input input" placeholder="First name">
+												<input type="text" class="form__input input" placeholder="Last name">
+											</div>
+											<input type="text" class="form__input input" placeholder="Email Address">
+											<select data-class-modif="form" name="formAddress" class="form__select">
+												<option value="1" selected>Searching Address</option>
+												<option value="2">Searching Address 2</option>
+												<option value="3">Searching Address 3</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="form__row">
+										<div class="form__label">Property</div>
+										<div class="form__block">
+											<select data-class-modif="form" name="formType" class="form__select">
+												<option value="1" selected>Select type</option>
+												<option value="2">Select type №2</option>
+												<option value="3">Select type №3</option>
+											</select>
+											<div class="form__column">
+												<div data-spollers class="form-spollers">
+													<div class="form-spollers__item">
+														<button type="button" data-spoller class="form-spollers__title input _icon-arrow">Max
+															price</button>
+														<div class="form-spollers__body">
+															<div id="range" class="form-range"></div>
+															<div class="form__inputs-range">
+																<input id="min" autocomplete="off" type="text" name="formRangeMin" class="form__input-range">
+																<input id="max" autocomplete="off" type="text" name="formRangeMax" class="form__input-range">
+															</div>
+														</div>
+													</div>
+												</div>
+												<input type="text" class="form__input input" placeholder="min. size(Sq ft’)">
+											</div>
+											<div class="form__column">
+												<input type="text" class="form__input input" placeholder="number of beds">
+												<input type="text" class="form__input input" placeholder="number of baths">
+											</div>
+										</div>
+									</div>
+
+									<div class="form__row">
+										<div class="form__label">BPD Agreement</div>
+										<div class="form__checkbox">
+											<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="formCheckbox">
+											<label for="c_1" class="checkbox__label"><span class="checkbox__text">With over 1
+													million+ homes for sale available on the website Trulia can.</span></label>
+										</div>
+									</div>
+
+									<div class="form__row">
+										<button type="submit" class="button form__button">Search Result</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Секция 5 -->
+				<div class="propertys section">
+					<div class="propertys__container">
+						<div class="propertys__body">
+							<div class="propertys__item propertys__item-one">
+								<div class="propertys__slider swiper">
+									<div class="propertys__wrapper swiper-wrapper">
+										<div class="propertys__slide swiper-slide">
+											<div class="propertys__label propertys__label-left">
+												<span>2907 Propertys</span>
+												<p>Apparitment</p>
+											</div>
+											<div class="propertys__image">
+												<picture><source srcset="img/residential.webp" type="image/webp"><img src="img/residential.jpg" alt="residential"></picture>
+											</div>
+										</div>
+										<div class="propertys__slide swiper-slide">
+											<div class="propertys__label propertys__label-left">
+												<span>2907 Propertys</span>
+												<p>Apparitment</p>
+											</div>
+											<div class="propertys__image">
+												<picture><source srcset="img/residential.webp" type="image/webp"><img src="img/residential.jpg" alt="residential"></picture>
+											</div>
+										</div>
+									</div>
+									<button type="button" class="swiper-button-prev _icon-arrow propertys-button-prev"></button>
+									<button type="button" class="swiper-button-next _icon-arrow propertys-button-next"></button>
+								</div>
+							</div>
+
+							<div class="propertys__info">
+								<div data-da=".propertys__item-one, 991.98" class="propertys__list-top">
+									<div class="propertys__block-top">
+										<h2>Residential</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+											incididunt ut labore et dolore magna</p>
+									</div>
+									<div class="propertys__line-top"><span></span></div>
+								</div>
+								<div data-da=".propertys__item-two, 991.98" class="propertys__list-bottom">
+									<div class="propertys__block-bottom">
+										<h2>Commercial</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+											incididunt ut labore et dolore magna</p>
+									</div>
+									<div class="propertys__line-bottom"><span></span></div>
+								</div>
+							</div>
+
+							<div class="propertys__item propertys__item-two">
+								<div class="propertys__slider swiper">
+									<div class="propertys__wrapper swiper-wrapper">
+										<div class="propertys__slide swiper-slide">
+											<div class="propertys__label propertys__label-right">
+												<span>163 Propertys</span>
+												<p>Office</p>
+											</div>
+											<div class="propertys__image">
+												<picture><source srcset="img/commercial.webp" type="image/webp"><img src="img/commercial.jpg" alt="commercial"></picture>
+											</div>
+										</div>
+										<div class="propertys__slide swiper-slide">
+											<div class="propertys__label propertys__label-right">
+												<span>163 Propertys</span>
+												<p>Office</p>
+											</div>
+											<div class="propertys__image">
+												<picture><source srcset="img/commercial.webp" type="image/webp"><img src="img/commercial.jpg" alt="commercial"></picture>
+											</div>
+										</div>
+									</div>
+									<button type="button" class="swiper-button-prev _icon-arrow propertys-button-prev"></button>
+									<button type="button" class="swiper-button-next _icon-arrow propertys-button-next"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Секция 6 -->
+				<!-- <div class="aboutTwo section">
+					<div class="aboutTwo__container">
+						<div class="aboutTwo__body">
+							<div class="aboutTwo__title">
+								<h1 class="title">Why Choose Us</h1>
+								<h3 class="subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+									praesentium voluptatum deleniti atque corrupti quos dolores</h3>
+							</div>
+							<div class="aboutTwo__items">
+								<div class="aboutTwo__item">
+									<div class="aboutTwo__icon">
+										<div class="_icon-completed-property icon-aboutTwo"></div>
+									</div>
+									<div class="aboutTwo__description">
+										<h2>73008+</h2>
+										<p>Completed Property</p>
+									</div>
+								</div>
+
+								<div class="aboutTwo__item">
+									<div class="aboutTwo__icon">
+										<div class="_icon-property-sales icon-aboutTwo"></div>
+									</div>
+									<div class="aboutTwo__description">
+										<h2>40029</h2>
+										<p>Property Sales</p>
+									</div>
+								</div>
+
+								<div class="aboutTwo__item">
+									<div class="aboutTwo__icon">
+										<div class="_icon-apartment-rent icon-aboutTwo"></div>
+									</div>
+									<div class="aboutTwo__description">
+										<h2>30500</h2>
+										<p>Apartment Rent</p>
+									</div>
+								</div>
+
+								<div class="aboutTwo__item">
+									<div class="aboutTwo__icon">
+										<div class="_icon-happy-clients icon-aboutTwo"></div>
+									</div>
+									<div class="aboutTwo__description">
+										<h2>50085</h2>
+										<p>Happy Clients</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- Секция 7 -->
+				<!-- <div class="cities">
+					<div class="cities__container">
+						<div class="cities__title">
+							<h1 class="title">Explore Cities</h1>
+							<h3 class="subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+								praesentium voluptatum deleniti atque corrupti quos dolores</h3>
+						</div>
+					</div>
+
+					<div class="cities__slider swiper">
+						<div class="cities__wrapper swiper-wrapper">
+							<div class="cities__slide swiper-slide">
+								<picture><source srcset="img/canada.webp" type="image/webp"><img src="img/canada.jpg" alt="Canada"></picture>
+								<div class="cities__label">
+									<p>Canada</p>
+									<span>583 Properties</span>
+								</div>
+							</div>
+
+							<div class="cities__slide swiper-slide">
+								<picture><source srcset="img/dubai.webp" type="image/webp"><img src="img/dubai.jpg" alt="Dubai"></picture>
+								<div class="cities__label">
+									<p>Dubai</p>
+									<span>107 Properties</span>
+								</div>
+							</div>
+
+							<div class="cities__slide swiper-slide">
+								<picture><source srcset="img/usa.webp" type="image/webp"><img src="img/usa.jpg" alt="USA"></picture>
+								<div class="cities__label">
+									<p>USA</p>
+									<span>5903 Properties</span>
+								</div>
+							</div>
+
+							<div class="cities__slide swiper-slide">
+								<picture><source srcset="img/singapore.webp" type="image/webp"><img src="img/singapore.jpg" alt="Singapore"></picture>
+								<div class="cities__label">
+									<p>Singapore</p>
+									<span>369 Properties</span>
+								</div>
+							</div>
+
+							<div class="cities__slide swiper-slide">
+								<picture><source srcset="img/maldives.webp" type="image/webp"><img src="img/maldives.jpg" alt="Maldives"></picture>
+								<div class="cities__label">
+									<p>Maldives</p>
+									<span>52 Properties</span>
+								</div>
+							</div>
+
+							<div class="cities__slide swiper-slide">
+								<picture><source srcset="img/canada.webp" type="image/webp"><img src="img/canada.jpg" alt="Canada"></picture>
+								<div class="cities__label">
+									<p>Canada</p>
+									<span>583 Properties</span>
+								</div>
+							</div>
+
+							<div class="cities__slide swiper-slide">
+								<picture><source srcset="img/dubai.webp" type="image/webp"><img src="img/dubai.jpg" alt="Dubai"></picture>
+								<div class="cities__label">
+									<p>Dubai</p>
+									<span>107 Properties</span>
+								</div>
+							</div>
+
+							<div class="cities__slide swiper-slide">
+								<picture><source srcset="img/usa.webp" type="image/webp"><img src="img/usa.jpg" alt="USA"></picture>
+								<div class="cities__label">
+									<p>USA</p>
+									<span>5903 Properties</span>
+								</div>
+							</div>
+
+							<div class="cities__slide swiper-slide">
+								<picture><source srcset="img/singapore.webp" type="image/webp"><img src="img/singapore.jpg" alt="Singapore"></picture>
+								<div class="cities__label">
+									<p>Singapore</p>
+									<span>369 Properties</span>
+								</div>
+							</div>
+
+							<div class="cities__slide swiper-slide">
+								<picture><source srcset="img/maldives.webp" type="image/webp"><img src="img/maldives.jpg" alt="Maldives"></picture>
+								<div class="cities__label">
+									<p>Maldives</p>
+									<span>52 Properties</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<!-- </section> -->
+
+				<!-- Секция 8 -->
+				<!-- <section class="reviews">
+				<div data-watch="navigator" class="reviews__container">
+					<div class="reviews__title">
+						<h1 class="title">CUSTOMER TESTIMONIALS</h1>
+						<h3 class="subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+							praesentium voluptatum deleniti atque corrupti quos dolores</h3>
+					</div>
+					<div class="reviews__list">
+						<div class="reviews__client client-reviews">
+							<div class="client-reviews__slider swiper">
+								<div class="client-reviews__wrapper swiper-wrapper">
+									<div class="client-reviews__slide swiper-slide">
+										<div class="client-reviews__person">
+											<div class="client-reviews__image">
+												<picture><source srcset="img/maria-zokatti.webp" type="image/webp"><img src="img/maria-zokatti.png" alt="Maria Zokatti"></picture>
+											</div>
+											<div class="client-reviews__name">
+												<p>Maria Zokatti</p>
+												<div class="client-reviews__rating">
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+												</div>
+											</div>
+											<div class="client-reviews__description">
+												The WP Estate team did an outstanding job helping me buy my first home. The high
+												level of service and dedication to seeing things done the right way is what I look
+												for in an agent.
+											</div>
+											<div class="client-reviews__label">
+												<p>happy buyer</p>
+												<picture><source srcset="img/happy-buyer.webp" type="image/webp"><img src="img/happy-buyer.png" alt="happy-buyer"></picture>
+											</div>
+										</div>
+									</div>
+
+									<div class="client-reviews__slide swiper-slide">
+										<div class="client-reviews__person">
+											<div class="client-reviews__image">
+												<picture><source srcset="img/don-doe.webp" type="image/webp"><img src="img/don-doe.png" alt="Don Doe"></picture>
+											</div>
+											<div class="client-reviews__name">
+												<p>Don Doe</p>
+												<div class="client-reviews__rating">
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+												</div>
+											</div>
+											<div class="client-reviews__description">
+												The WP Estate team did an outstanding job helping me buy my first home. The high
+												level of service and dedication to seeing things done the right way is what I
+												look
+												for in an agent.
+											</div>
+											<div class="client-reviews__label">
+												<p>happy buyer</p>
+												<picture><source srcset="img/happy-buyer.webp" type="image/webp"><img src="img/happy-buyer.png" alt="happy-buyer"></picture>
+											</div>
+										</div>
+									</div>
+
+									<div class="client-reviews__slide swiper-slide">
+										<div class="client-reviews__person">
+											<div class="client-reviews__image">
+												<picture><source srcset="img/maria-zokatti.webp" type="image/webp"><img src="img/maria-zokatti.png" alt="Maria Zokatti"></picture>
+											</div>
+											<div class="client-reviews__name">
+												<p>Maria Zokatti</p>
+												<div class="client-reviews__rating">
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+												</div>
+											</div>
+											<div class="client-reviews__description">
+												The WP Estate team did an outstanding job helping me buy my first home. The high
+												level of service and dedication to seeing things done the right way is what I look
+												for in an agent.
+											</div>
+											<div class="client-reviews__label">
+												<p>happy buyer</p>
+												<picture><source srcset="img/happy-buyer.webp" type="image/webp"><img src="img/happy-buyer.png" alt="happy-buyer"></picture>
+											</div>
+										</div>
+									</div>
+
+									<div class="client-reviews__slide swiper-slide">
+										<div class="client-reviews__person">
+											<div class="client-reviews__image">
+												<picture><source srcset="img/kent-odeldan.webp" type="image/webp"><img src="img/kent-odeldan.png" alt="Kent Odeldan"></picture>
+											</div>
+											<div class="client-reviews__name">
+												<p>Kent Odeldan</p>
+												<div class="client-reviews__rating">
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+												</div>
+											</div>
+											<div class="client-reviews__description">
+												The WP Estate team did an outstanding job helping me buy my first home. The high
+												level of service and dedication to seeing things done the right way is what I
+												look
+												for in an agent.
+											</div>
+											<div class="client-reviews__label">
+												<p>happy buyer</p>
+												<picture><source srcset="img/happy-buyer.webp" type="image/webp"><img src="img/happy-buyer.png" alt="happy-buyer"></picture>
+											</div>
+										</div>
+									</div>
+
+									<div class="client-reviews__slide swiper-slide">
+										<div class="client-reviews__person">
+											<div class="client-reviews__image">
+												<picture><source srcset="img/don-doe.webp" type="image/webp"><img src="img/don-doe.png" alt="Don Doe"></picture>
+											</div>
+											<div class="client-reviews__name">
+												<p>Don Doe</p>
+												<div class="client-reviews__rating">
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+												</div>
+											</div>
+											<div class="client-reviews__description">
+												The WP Estate team did an outstanding job helping me buy my first home. The high
+												level of service and dedication to seeing things done the right way is what I
+												look
+												for in an agent.
+											</div>
+											<div class="client-reviews__label">
+												<p>happy buyer</p>
+												<picture><source srcset="img/happy-buyer.webp" type="image/webp"><img src="img/happy-buyer.png" alt="happy-buyer"></picture>
+											</div>
+										</div>
+									</div>
+
+									<div class="client-reviews__slide swiper-slide">
+										<div class="client-reviews__person">
+											<div class="client-reviews__image">
+												<picture><source srcset="img/kent-odeldan.webp" type="image/webp"><img src="img/kent-odeldan.png" alt="Kent Odeldan"></picture>
+											</div>
+											<div class="client-reviews__name">
+												<p>Kent Odeldan</p>
+												<div class="client-reviews__rating">
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+													<div class="_icon-rating"></div>
+												</div>
+											</div>
+											<div class="client-reviews__description">
+												The WP Estate team did an outstanding job helping me buy my first home. The high
+												level of service and dedication to seeing things done the right way is what I
+												look
+												for in an agent.
+											</div>
+											<div class="client-reviews__label">
+												<p>happy buyer</p>
+												<picture><source srcset="img/happy-buyer.webp" type="image/webp"><img src="img/happy-buyer.png" alt="happy-buyer"></picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="swiper-button-prev _icon-arrow-slider client-button-prev"></button>
+							<button type="button" class="swiper-button-next _icon-arrow-slider client-button-next"></button>
+						</div>
+
+						<div class="reviews__callback callback-reviews">
+							<div class="callback-reviews__info">
+								<h1>Three steps to at works</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+									labore et dolore magna</p>
+							</div>
+							<div class="callback-reviews__reg">
+								<p>Already <span>80310</span> people are registered</p>
+								<button type="submit" class="button callback-reviews__button">Registre Now</button>
+							</div>
+						</div>
+
+						<div class="reviews__company company-reviews">
+							<div class="company-reviews__list">
+								<div class="company-reviews__item">
+									<picture><source srcset="img/ecohouse.webp" type="image/webp"><img src="img/ecohouse.png" alt="ecohouse"></picture>
+								</div>
+								<div class="company-reviews__item">
+									<picture><source srcset="img/real-estate.webp" type="image/webp"><img src="img/real-estate.png" alt="real-estate"></picture>
+								</div>
+								<div class="company-reviews__item">
+									<picture><source srcset="img/real-estate2.webp" type="image/webp"><img src="img/real-estate2.png" alt="real-estate2"></picture>
+								</div>
+								<div class="company-reviews__item">
+									<picture><source srcset="img/house.webp" type="image/webp"><img src="img/house.png" alt="house"></picture>
+								</div>
+								<div class="company-reviews__item">
+									<picture><source srcset="img/bastille.webp" type="image/webp"><img src="img/bastille.png" alt="bastille"></picture>
+								</div>
+								<div class="company-reviews__item">
+									<picture><source srcset="img/urban-home.webp" type="image/webp"><img src="img/urban-home.png" alt="urban-home"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
+		</main>
+		<!-- <footer data-watch="navigator" class="footer">
+	<div class="footer__top">
+		<div class="footer__container">
+			<div class="footer__content">
+				<div class="footer__contacts">
+					<div class="footer__title">Contact</div>
+					<ul class="footer__list">
+						<li class="_icon-mail"><a href="#" type="email" class="footer__link">bpd.help@gmail.com</a></li>
+						<li class="_icon-phone"><a href="#" type="tel" class="footer__link">+17029625000</a></li>
+						<li class="_icon-location"><a href="#" type="map" class="footer__link">3100 N Tenaya Way, Las Vegas,
+								NV 89128, United States</a></li>
+					</ul>
+					<div class="footer__horizont-line"></div>
+					<ul class="footer__social">
+						<li><a href="#" class="_icon-pinterest"></a></li>
+						<li><a href="#" class="_icon-instagram"></a></li>
+						<li><a href="#" class="_icon-facebook"></a></li>
+						<li><a href="#" class="_icon-youtube"></a></li>
+					</ul>
+				</div>
+
+				<div data-spollers="767.98" class="footer__block">
+					<div class="footer__item">
+						<button type="button" data-spoller class="footer__title">Discover</button>
+						<div class="spollers__body">
+							<ul class="footer__items">
+								<li><a href="#">New york</a></li>
+								<li><a href="#">Paris</a></li>
+								<li><a href="#">London</a></li>
+								<li><a href="#">Dubai</a></li>
+								<li><a href="#">Canada</a></li>
+								<li><a href="#">Paris</a></li>
+								<li><a href="#">New york</a></li>
+								<li><a href="#">London</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div data-spollers="767.98" class="footer__block">
+					<div class="spollers__item footer__item">
+						<button type="button" data-spoller class="footer__title">Lists by Category</button>
+						<div class="spollers__body">
+							<ul class="footer__items">
+								<li><a href="#">Appartment</a></li>
+								<li><a href="#">House</a></li>
+								<li><a href="#">Office</a></li>
+								<li><a href="#">Shop</a></li>
+								<li><a href="#">Village</a></li>
+								<li><a href="#">House</a></li>
+								<li><a href="#">Office</a></li>
+								<li><a href="#">Appartment</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div data-spollers="767.98" class="footer__block">
+					<div class="footer__item">
+						<button type="button" data-spoller class="footer__title">Quick Links</button>
+						<div class="spollers__body">
+							<ul class="footer__items footer__items_visible">
+								<li><a href="#">New Articles</a></li>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Terms & Condition</a></li>
+								<li><a href="#">User’s guide</a></li>
+								<li><a href="#">Support center</a></li>
+								<li><a href="#">Contact us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<h2>Готовые страницы:</h2>
-		<ol class="rootpage__list">
-			<li><a target="_blank" href="home.html">Главная</a></li>
-		</ol>
-		<h2>Попапы:</h2>
-		<ol class="rootpage__list">
-			<li><a target="_blank" href="home.html#"></a></li>
-		</ol>
-		<!-- <div class="rootpage__tnx">
-				<h2>Спасибо за заказ!</h2>
-				<p>Буду рад (а) хорошему отзыву.</p>
-				<p>Обращайтесь еще!</p>
-			</div> -->
-		<!-- <div class="rootpage__contacts">
-				<h2>Мои контакты:</h2>
-				<p>Почта: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
-				<p>Телефон: <a href="tel:8800800800">8 800 800 800</a></p>
-				<p>Соц. сеть: <a href="">ссылка на соц. сеть</a></p>
-			</div> -->
 	</div>
+	<div class="footer__bottom">
+		<div class="footer__copyright _icon-copyright">2022. Powered By BPD</div>
+	</div>
+</footer> -->
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230407133048"></script>
 </body>
-<style>
-	@charset "UTF-8";
-	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
-
-	*,
-	*::before,
-	*::after {
-		padding: 0px;
-		margin: 0px;
-		border: 0px;
-		box-sizing: border-box;
-	}
-
-	html,
-	body {
-		height: 100%;
-		margin: 0;
-		padding: 0;
-		min-width: 320px;
-		width: 100%;
-		color: #fff;
-		background-color: #5e5373;
-	}
-
-	body {
-		font-family: Montserrat;
-		font-size: 100%;
-		line-height: 1;
-		font-size: 1rem;
-	}
-
-	a {
-		text-decoration: underline;
-		color: #ebe691
-	}
-
-	a:visited {
-		text-decoration: underline;
-		color: #aaa768;
-	}
-
-	a:hover {
-		text-decoration: none;
-	}
-
-	ul li {
-		list-style: none;
-	}
-
-	img {
-		vertical-align: top;
-	}
-
-	.wrapper {
-		width: 100%;
-		min-height: 100%;
-		overflow: hidden;
-	}
-
-	.rootpage {
-		padding: 30px;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	@media (max-width: 767px) {
-		.rootpage {
-			padding: 30px 15px;
-		}
-	}
-
-	h1 {
-		color: #ebe691;
-		font-size: 2.5rem;
-		margin: 0px 0px 1.25rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h1 {
-			font-size: 1.85rem;
-			margin: 0px 0px 1.25rem 0px;
-		}
-	}
-
-	h2 {
-		color: #ebe691;
-		font-size: 1.25rem;
-		margin: 0px 0px 1rem 0px;
-	}
-
-	@media (max-width: 767px) {
-		h2 {
-			font-size: 1.125rem;
-			margin: 0px 0px 1rem 0px;
-		}
-	}
-
-	.rootpage__info {
-		line-height: 140%;
-		margin: 0px 0px 1.5rem 0px;
-	}
-
-	.rootpage__list {
-		margin: 0px 0px 2.25rem 1.25rem;
-	}
-
-	.rootpage__list li:not(:last-child) {
-		margin: 0px 0px 15px 0px;
-	}
-
-	.rootpage__contacts,
-	.rootpage__tnx {
-		border-radius: 200px;
-		padding: 20px 65px;
-		line-height: 140%;
-	}
-
-	@media (max-width: 767px) {
-
-		.rootpage__contacts,
-		.rootpage__tnx {
-			border-radius: 40px;
-			padding: 20px;
-		}
-	}
-
-	.rootpage__contacts {
-		background: #32b5a4;
-
-	}
-
-	.rootpage__contacts a {
-		color: #ebe691;
-	}
-
-	.rootpage__tnx {
-		background: #c22d63;
-		margin: 0px 0px 1rem 0px;
-	}
-</style>
 
 </html>
