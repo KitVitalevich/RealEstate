@@ -5263,11 +5263,28 @@
                 modules: [],
                 observer: true,
                 observeParents: true,
-                slidesPerView: 4,
+                slidesPerView: 5,
                 spaceBetween: 20,
-                autoHeight: true,
                 speed: 800,
                 loop: true,
+                breakpoints: {
+                    320: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 20
+                    },
+                    1268: {
+                        slidesPerView: 4,
+                        spaceBetween: 30
+                    }
+                },
                 on: {}
             });
             if (document.querySelector(".client-reviews__slider")) new core(".client-reviews__slider", {
@@ -5283,6 +5300,49 @@
                 navigation: {
                     prevEl: ".client-button-prev",
                     nextEl: ".client-button-next"
+                },
+                breakpoints: {
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                        autoHeight: true
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    992: {
+                        slidesPerView: 3,
+                        spaceBetween: 20
+                    }
+                },
+                on: {}
+            });
+            if (document.querySelector(".company-reviews__slider")) new core(".company-reviews__slider", {
+                modules: [],
+                observer: true,
+                observeParents: true,
+                slidesPerView: 6,
+                spaceBetween: 20,
+                autoHeight: true,
+                speed: 800,
+                breakpoints: {
+                    320: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    420: {
+                        slidesPerView: 3,
+                        spaceBetween: 20
+                    },
+                    768: {
+                        slidesPerView: 4,
+                        spaceBetween: 20
+                    },
+                    992: {
+                        slidesPerView: 6,
+                        spaceBetween: 20
+                    }
                 },
                 on: {}
             });
